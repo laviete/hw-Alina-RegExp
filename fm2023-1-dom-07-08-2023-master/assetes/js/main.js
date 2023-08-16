@@ -1,7 +1,7 @@
 'use strict';
 //---------------hw----------------
 const patternName = /^[A-ZА-ЯЁ][a-zа-яё]{1,32} [A-ZА-ЯЁ]\.[A-ZА-ЯЁ]\.$/;
-const patternUserName = new RegExp('^[A-ZА-ЯЁ][a-zа-яё]{1,32} ([A-ZА-ЯЁ]\.){2}$');
+const patternUserName = new RegExp('^[A-ZА-ЯЁ][a-zа-яё]{1,32} ([A-ZА-ЯЁ]\\.){2}$');
 //---------------------------------
 const usersArray = [];
 const textForm = document.getElementById('textForm');
